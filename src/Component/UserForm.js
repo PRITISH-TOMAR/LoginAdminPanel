@@ -48,7 +48,7 @@ const UserForm = () => {
                 ...prevData,
                 images: [...prevData.images, downloadURL],
               }));
-              setUploadSuccess("Images uploaded successfully");
+              setUploadSuccess("Images uploaded successfully!");
               resolve();
             }
           );
