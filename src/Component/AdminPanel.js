@@ -48,7 +48,7 @@ toggleUsersData()
         <td className="border px-4 py-2">
           <div className="flex overflow-x-auto space-x-2 w-full">
             {user.images.map((image, index) => (
-              <a key={index} href={image} target="_blank" rel="noopener noreferrer">
+              <a key={index} href={image} target="_blank" >
                 <img src={image} alt="Uploaded" className="min-w-16 h-16 object-cover flex-shrink-0 border rounded-md hover:border-blue-500" />
               </a>
             ))}
